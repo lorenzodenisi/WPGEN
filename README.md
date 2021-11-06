@@ -3,8 +3,8 @@
 
 
 
-![Heroku](https://pyheroku-badge.herokuapp.com/?app=WPGEN) [Heroku](https://wpgen.herokuapp.com/)
-
+![Open in Heroku](https://pyheroku-badge.herokuapp.com/?app=WPGEN)(https://wpgen.herokuapp.com/)
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/lorenzodenisi/wpgen/main/WPGEN.py)
 
 
 
