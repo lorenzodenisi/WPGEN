@@ -1,6 +1,11 @@
 # WPGEN
 ## WallPaper GENerator
 
-[![Heroku](https://heroku-badge.herokuapp.com/?app=heroku-badge)]
+
+
+![Heroku](https://pyheroku-badge.herokuapp.com/?app=WPGEN)
+
+
+
 
 Made with Python and Streamlit
