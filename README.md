@@ -3,7 +3,7 @@
 
 
 
-![Heroku](https://pyheroku-badge.herokuapp.com/?app=WPGEN)
+![Heroku](https://pyheroku-badge.herokuapp.com/?app=WPGEN) [Heroku](https://wpgen.herokuapp.com/)
 
 
 
