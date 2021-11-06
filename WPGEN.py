@@ -186,7 +186,7 @@ with st.sidebar.container():
     st.header("Credits")
     
     st.caption("Lorenzo De Nisi")
-    st.markdown("[GitHub](https://github.com/lorenzodenisi)")
+    st.markdown("[GitHub](https://github.com/lorenzodenisi/WPGEN)")
 
 
 
