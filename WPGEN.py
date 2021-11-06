@@ -38,7 +38,7 @@ height_box = st.sidebar.number_input("height", min_value=10, max_value=5000, val
 width_box = st.sidebar.number_input("width", min_value=10, max_value=5000, value=1920, step=1, 
 	format=None, key=None, help=None, on_change=None, args=None, kwargs=None)
 
-grid_expander = st.sidebar.beta_expander("Grid dimensions", expanded=False)
+grid_expander = st.sidebar.expander("Grid dimensions", expanded=False)
 with grid_expander:
     st.header("Grid dimensions")
     grid_h = st.slider("rows", min_value=2, max_value=5, value=3, step=1, 
@@ -69,7 +69,7 @@ def on_color_clicked():
                       
 st.sidebar.header("Tiles color")    
 
-color_pickers_container = st.sidebar.beta_container()
+color_pickers_container = st.sidebar.container()
 
 def build_color_pickers(offset):
     with color_pickers_container:
@@ -79,7 +79,7 @@ def build_color_pickers(offset):
         global pickers
         global first 
     
-        cols = st.beta_columns(w)
+        cols = st.columns(w)
     
         pickers = []
         for i in range(h):
@@ -148,8 +148,8 @@ def get_image(colors, strength=100):
     
 
 ###########################
-image_container = st.beta_container()
-download_container = st.beta_container()
+image_container = st.container()
+download_container = st.container()
 spinner_container = st.empty()
 
 with spinner_container:
@@ -182,7 +182,7 @@ with download_container:
     
 
 ###########################
-with st.sidebar.beta_container():
+with st.sidebar.container():
     st.header("Credits")
     
     st.caption("Lorenzo De Nisi")
